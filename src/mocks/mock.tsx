@@ -1,6 +1,7 @@
-const Products = [
+export const Products = [
     {
       id: 1,
+      category: "petite plante",
       titre: "Cactus",
       description: `Les cactus sont des plantes succulentes appartenant à la famille des Cactacées. 
       Ils sont généralement originaires des régions arides et désertiques des Amériques, 
@@ -10,11 +11,12 @@ const Products = [
       ce qui leur permet de survivre dans des environnements arides avec de faibles quantités de précipitations. 
       Leurs feuilles sont généralement modifiées en épines, qui aident à réduire la perte d'eau par évaporation 
       et à les protéger des herbivores.`,
-      image: "images/ImgProduit2.png",
+      image: "images/cactus.jpg",
       prix: 19.99,
     },
     {
       id: 2,
+      category: "plante",
       titre: "Bergamotte",
       description: `Citrus bergamia, communément appelé bergamote, est un agrume appartenant à la famille des Rutacées. 
       Il est surtout connu pour son utilisation dans l'industrie de la parfumerie et de l'aromathérapie en raison de l'huile essentielle précieuse 
@@ -28,7 +30,6 @@ const Products = [
       pour ses propriétés relaxantes et apaisantes, qui peuvent aider à soulager le stress et l'anxiété.
       Outre son utilisation dans les domaines de la parfumerie et de l'aromathérapie, la bergamote est également appréciée pour son utilisation culinaire. 
       Son zeste est utilisé pour parfumer les pâtisseries, les confitures, les boissons et les liqueurs. `,
-
       image:  "images/Img.png",
       prix: 29.99,
     },

@@ -1,0 +1,43 @@
+.cardContainer {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 15%;
+  
+  }
+  
+  .cardContent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardImg {
+    width: 30%;
+    margin: 40px;
+    margin-left: 20px;
+  }
+  
+  .cardContainer {
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cardContent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardImg {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+  .textContainer {
+   flex: 1;
+  }
+  
+  
