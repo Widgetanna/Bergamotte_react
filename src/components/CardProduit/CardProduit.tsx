@@ -9,7 +9,7 @@ const CardProduit = () => {
 
   // verification
   if (!product) {
-    return <p>Product with id 1 not found!</p>;
+    return <p> not found!</p>;
   }
 
   return (
@@ -18,9 +18,10 @@ const CardProduit = () => {
         <img className={style.cardImg} src={product.image} alt={product.titre} />
         <div className={style.textContainer}>
           <h2>{product.titre}</h2>
-          <p>{product.description}</p>
+          <p>{product.description1}</p>
+          <p>{product.description2}</p>
           <p>Prix: {product.prix} €</p>
-          <Button />
+          <Button isAvaible={product.isAvaible}  />
         </div>
       </div>
     </div>

@@ -3,16 +3,18 @@ export const Products = [
       id: 1,
       category: "petite plante",
       titre: "Cactus",
-      description: `Les cactus sont des plantes succulentes appartenant à la famille des Cactacées. 
+      description1: `Les cactus sont des plantes succulentes appartenant à la famille des Cactacées. 
       Ils sont généralement originaires des régions arides et désertiques des Amériques, 
-      bien qu\`ils aient également été introduits dans d\`autres parties du monde en raison de leur popularité 
-      en tant que plantes d'intérieur.
-      Les cactus se caractérisent par leur capacité à stocker de l'eau dans leurs tissus, 
+      bien qu'ils aient également été introduits dans d'autres parties du monde en raison de leur popularité 
+      en tant que plantes d'intérieur.`,
+      description2:
+      `Les cactus se caractérisent par leur capacité à stocker de l'eau dans leurs tissus, 
       ce qui leur permet de survivre dans des environnements arides avec de faibles quantités de précipitations. 
       Leurs feuilles sont généralement modifiées en épines, qui aident à réduire la perte d'eau par évaporation 
       et à les protéger des herbivores.`,
       image: "images/cactus.jpg",
       prix: 19.99,
+      isAvaible: false,
     },
     {
       id: 2,
@@ -32,8 +34,9 @@ export const Products = [
       Son zeste est utilisé pour parfumer les pâtisseries, les confitures, les boissons et les liqueurs. `,
       image:  "images/Img.png",
       prix: 29.99,
+      isAvaible: true,
     },
-    // Ajoutez autant d'objets que nécessaire
+    
   ];
   
   export default Products ;
