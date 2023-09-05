@@ -5,6 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppRouter from './AppRouter/AppRouter';
 
+
+// Création de l'élément <link> pour la police Google Fonts
+const link = document.createElement('link');
+link.rel = 'stylesheet';
+link.href = 'https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;900&display=swap" rel="styleshee';
+document.head.appendChild(link);
+
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

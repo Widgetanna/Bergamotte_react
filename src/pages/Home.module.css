@@ -1,0 +1,66 @@
+.containeur {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+.image {
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+  }
+  
+  .voile {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height:  99.5%; 
+    background-color: rgba(20, 61, 20, 0.3);
+    border: 2px solid black;
+  }
+
+.containeurHaut {
+    width: 100%;
+    height: 16vh;
+    background-color: var(--vertTresClaire);
+
+}
+
+
+
+ .text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center; 
+  font-family: 'Cinzel Decorative', cursive;
+  color: white;
+  font-size: clamp(1rem, 5vw, 4rem);
+  
+}
+.petitText {
+    position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family:'Roboto';
+  color: white;
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-weight: 400;
+}
+
+.button {
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    bottom: 20%;
+   left: 40%;
+   background-color: var(--vertTresClaire);
+   border: none;
+   border-radius: 15px;
+   font-size: clamp(0.5rem, 1.5vw, 2rem);
+   color: var(--vert);
+}

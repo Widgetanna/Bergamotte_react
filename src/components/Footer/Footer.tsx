@@ -1,8 +1,9 @@
+import ContainerFlexAround from 'components/ContainerFlexAround/ContainerFlexAround'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <ContainerFlexAround />
   )
 }
 
